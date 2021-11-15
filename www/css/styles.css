@@ -1,0 +1,204 @@
+/* General properties */
+
+body {
+	font-family: Open Sans !important;
+	background-color: #3f3a60;
+}
+
+input {
+	color: #555;
+}
+
+a, a:hover, a:active, a:visited {
+	text-decoration: none;
+}
+
+.row {
+	margin-right: 0;
+}
+
+.fa {
+	margin-right: 5px;
+}
+
+#panel-title, #table-title, #versus-title {
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 15px 0;
+}
+
+#panel-icon, #table-icon, #versus-icon {
+	cursor: pointer;
+	float: right;
+}
+
+.tips {
+	font-size: 15px;
+	font-family: Open Sans;
+}
+
+.shiny-output-error { 
+	visibility: hidden;
+}
+
+/* ******************************************** */
+
+/* App header */
+
+#app-header{
+	background-color: #4c4580;
+	color: white;
+	padding: 15px;
+    border-radius: 12px;
+	margin-bottom: 33px;
+}
+
+#app-icon {
+	float: right;
+}
+
+#app-title {
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.app-icaro, .app-icaro:hover, .app-icaro:active, .app-icaro:visited {
+	font-size: 25px;
+	font-style: italic;
+	color: white;
+}
+
+#app-subtitle {
+	font-size: 20px;
+	width: 80%;
+}
+
+/* ******************************************** */
+
+/* Control panel */
+
+.well {
+	background-color: #4c4580;
+	color: white;
+	border: none;
+	padding-top: 3px;
+    border-radius: 12px;
+}
+
+#panel-header .bttn-fill.bttn-warning {
+	font-size: 30px;
+}
+
+.well .shiny-html-output.shiny-bound-output {
+	padding: 0;
+	min-height: 50px;
+}
+
+div[id^="LABEL"] {
+	font-weight: bold;
+}
+
+.irs-bar {
+	border-top: 1px solid #ff5100 !important;
+	border-bottom: 1px solid #ff5100 !important;
+	background-color: #ff5100 !important;
+}
+
+.irs-from, .irs-to, .irs-single {
+	background-color: #ff5100 !important;
+}
+
+.bttn-fill.bttn-warning {
+	margin-left: 10px;
+}
+
+.bootstrap-switch.bootstrap-switch-focused, .bootstrap-switch {
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-danger, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-danger {
+	background: #ff5100 !important;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-success, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-success {
+	background: #c9302c !important;
+}
+
+.form-group.shiny-input-container.shiny-input-container-inline {
+	margin-left: 10px;
+}
+
+#UIname {
+	padding-bottom: 15px;
+}
+
+#name-tip  {
+	padding-left: 10px;
+}
+/* ******************************************** */
+
+/* Table */
+
+#table {
+	padding: 15px 0;
+}
+
+#table-icon{
+	cursor: pointer;
+	float: right;
+}
+
+#table-container {
+	width: 66.6667%;
+    float: right;
+	background-color: #4c4580;
+	border: none;
+	padding-top: 3px;
+    border-radius: 12px;
+	padding: 0 15px;
+	margin-bottom: 15px;
+}
+
+.rt-thead input[type='checkbox'] {
+	pointer-events: none;
+	display: none;
+}
+
+.rt-tbody input[type='checkbox'] {
+	cursor: pointer;
+}
+
+/* ******************************************** */
+
+/* Versus */
+#versus-container {
+	width: 66.6667%;
+    float: right;
+	background-color: #4c4580;
+	border: none;
+	padding-top: 3px;
+    border-radius: 12px;
+	padding: 0 15px;
+	color: white;
+}
+
+#versus-title {
+	padding: 15px 0;
+}
+
+.fa-0x {
+	font-size: 0.5em;
+    position: relative;
+    top: -2px;
+}
+
+#graph {
+	margin-bottom: 15px;
+}
+
+.main-svg {
+    border-radius: 12px;
+}
