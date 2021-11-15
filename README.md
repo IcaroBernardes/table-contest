@@ -25,3 +25,13 @@ The app has three sections, a control panel, a list of games (table) and a scatt
   + If the "Rating Average" or "Complexity Average" are converted to categorical, some jittery is added to the points.
 
 To facilitate navigation, the minus icons hide/show sections of the app.
+
+There are two scripts beyond the app.R in the repository: database_generator.R and scrap_thumbnails.R.
+
+* database_generator.R:
+  + Handles the original data and adds categorical versions of the numerical variables;
+  + The limits of each category can be found in the script.
+
+* scrap_thumbnails.R:
+  + Script that politely asks the BGG site for the games thumbnails;
+  + Thumbnails not included in the final version of the app given their overwhelming quantity (not supported by shinyapps).
